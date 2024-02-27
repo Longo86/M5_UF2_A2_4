@@ -28,7 +28,7 @@ public class CercarVocals {
     }
 
     /**
-     * Funció que ens diu si un caracter és una vocal
+     * Funció que ens diu un caracter és una vocal
      * @param c és un caracter
      * @return cert: és vocal , fals : no és vocal
      */
@@ -60,6 +60,7 @@ public class CercarVocals {
      */
     public static void imprimir(char[] var){
         System.out.print( "[ ");
+
         for (int i = 0; i < var.length; i++) {
             System.out.print(var[i] + " , ");
         }
